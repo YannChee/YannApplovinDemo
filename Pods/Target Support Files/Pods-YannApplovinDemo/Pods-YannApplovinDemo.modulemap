@@ -1,0 +1,6 @@
+framework module Pods_YannApplovinDemo {
+  umbrella header "Pods-YannApplovinDemo-umbrella.h"
+
+  export *
+  module * { export * }
+}
