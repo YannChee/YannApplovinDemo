@@ -9,11 +9,12 @@
 /* Begin PBXBuildFile section */
 		033B1A722C801F71008EEAA0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 033B1A712C801F71008EEAA0 /* AppDelegate.swift */; };
 		033B1A742C801F71008EEAA0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 033B1A732C801F71008EEAA0 /* SceneDelegate.swift */; };
-		033B1A762C801F71008EEAA0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 033B1A752C801F71008EEAA0 /* ViewController.swift */; };
+		033B1A762C801F71008EEAA0 /* HomeNormalADController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 033B1A752C801F71008EEAA0 /* HomeNormalADController.swift */; };
 		033B1A792C801F71008EEAA0 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 033B1A782C801F71008EEAA0 /* Base */; };
 		033B1A7B2C801F73008EEAA0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 033B1A7A2C801F73008EEAA0 /* Assets.xcassets */; };
 		033B1A7E2C801F73008EEAA0 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 033B1A7D2C801F73008EEAA0 /* Base */; };
 		033B1A872C802101008EEAA0 /* HomeADController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 033B1A862C802101008EEAA0 /* HomeADController.swift */; };
+		0341656E2C804EDD007F4F68 /* AppLovin-Settingsxxxx_xxxxxxx.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0341656D2C804EDD007F4F68 /* AppLovin-Settingsxxxx_xxxxxxx.plist */; };
 		375F94ADA785BF9950DE1140 /* AppLovinQualityService.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = F66FD48A2A6FD6198053CE0A /* AppLovinQualityService.xcframework */; };
 		922420692712F5286AF02E8A /* AppLovinQualityService.xcframework in AppLovinQualityService Embed Framework */ = {isa = PBXBuildFile; fileRef = F66FD48A2A6FD6198053CE0A /* AppLovinQualityService.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		D22A35B8EC53287D5502A6D6 /* Pods_YannApplovinDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C8E7BB2072B82587D8C7FF87 /* Pods_YannApplovinDemo.framework */; };
@@ -37,12 +38,13 @@
 		033B1A6E2C801F71008EEAA0 /* YannApplovinDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YannApplovinDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		033B1A712C801F71008EEAA0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		033B1A732C801F71008EEAA0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		033B1A752C801F71008EEAA0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		033B1A752C801F71008EEAA0 /* HomeNormalADController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeNormalADController.swift; sourceTree = "<group>"; };
 		033B1A782C801F71008EEAA0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		033B1A7A2C801F73008EEAA0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		033B1A7D2C801F73008EEAA0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		033B1A7F2C801F73008EEAA0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		033B1A862C802101008EEAA0 /* HomeADController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeADController.swift; sourceTree = "<group>"; };
+		0341656D2C804EDD007F4F68 /* AppLovin-Settingsxxxx_xxxxxxx.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AppLovin-Settingsxxxx_xxxxxxx.plist"; sourceTree = "<group>"; };
 		513381FB9DD97EED8FC1969F /* Pods-YannApplovinDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YannApplovinDemo.release.xcconfig"; path = "Target Support Files/Pods-YannApplovinDemo/Pods-YannApplovinDemo.release.xcconfig"; sourceTree = "<group>"; };
 		C8E7BB2072B82587D8C7FF87 /* Pods_YannApplovinDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YannApplovinDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E022FB3386C9ED629667998A /* Pods-YannApplovinDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YannApplovinDemo.debug.xcconfig"; path = "Target Support Files/Pods-YannApplovinDemo/Pods-YannApplovinDemo.debug.xcconfig"; sourceTree = "<group>"; };
@@ -87,11 +89,11 @@
 				033B1A852C8020EE008EEAA0 /* HomeAD */,
 				033B1A712C801F71008EEAA0 /* AppDelegate.swift */,
 				033B1A732C801F71008EEAA0 /* SceneDelegate.swift */,
-				033B1A752C801F71008EEAA0 /* ViewController.swift */,
 				033B1A772C801F71008EEAA0 /* Main.storyboard */,
 				033B1A7A2C801F73008EEAA0 /* Assets.xcassets */,
 				033B1A7C2C801F73008EEAA0 /* LaunchScreen.storyboard */,
 				033B1A7F2C801F73008EEAA0 /* Info.plist */,
+				0341656D2C804EDD007F4F68 /* AppLovin-Settingsxxxx_xxxxxxx.plist */,
 			);
 			path = YannApplovinDemo;
 			sourceTree = "<group>";
@@ -100,6 +102,7 @@
 			isa = PBXGroup;
 			children = (
 				033B1A862C802101008EEAA0 /* HomeADController.swift */,
+				033B1A752C801F71008EEAA0 /* HomeNormalADController.swift */,
 			);
 			path = HomeAD;
 			sourceTree = "<group>";
@@ -136,9 +139,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 033B1A822C801F73008EEAA0 /* Build configuration list for PBXNativeTarget "YannApplovinDemo" */;
 			buildPhases = (
+				067801D31DCBC7369A2D4072 /* [CP] Check Pods Manifest.lock */,
 				D788DDB6EBD84F4C19D6FB4E /* AppLovinQualityService Updater */,
 				29F31896075623219A9FB63D /* AppLovinQualityService Embed Framework */,
-				067801D31DCBC7369A2D4072 /* [CP] Check Pods Manifest.lock */,
 				033B1A6A2C801F71008EEAA0 /* Sources */,
 				033B1A6B2C801F71008EEAA0 /* Frameworks */,
 				033B1A6C2C801F71008EEAA0 /* Resources */,
@@ -192,6 +195,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0341656E2C804EDD007F4F68 /* AppLovin-Settingsxxxx_xxxxxxx.plist in Resources */,
 				033B1A7B2C801F73008EEAA0 /* Assets.xcassets in Resources */,
 				033B1A7E2C801F73008EEAA0 /* Base in Resources */,
 				033B1A792C801F71008EEAA0 /* Base in Resources */,
@@ -289,7 +293,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				033B1A762C801F71008EEAA0 /* ViewController.swift in Sources */,
+				033B1A762C801F71008EEAA0 /* HomeNormalADController.swift in Sources */,
 				033B1A722C801F71008EEAA0 /* AppDelegate.swift in Sources */,
 				033B1A742C801F71008EEAA0 /* SceneDelegate.swift in Sources */,
 				033B1A872C802101008EEAA0 /* HomeADController.swift in Sources */,
@@ -465,6 +469,7 @@
 				INFOPLIST_FILE = YannApplovinDemo/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = "";
 				INFOPLIST_KEY_LSApplicationCategoryType = "";
+				INFOPLIST_KEY_NSUserTrackingUsageDescription = "广告";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -514,6 +519,7 @@
 				INFOPLIST_FILE = YannApplovinDemo/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = "";
 				INFOPLIST_KEY_LSApplicationCategoryType = "";
+				INFOPLIST_KEY_NSUserTrackingUsageDescription = "广告";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;

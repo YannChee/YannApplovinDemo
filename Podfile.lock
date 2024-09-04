@@ -1,16 +1,20 @@
 PODS:
   - AppLovinSDK (12.6.1)
+  - YYModel (1.0.4)
 
 DEPENDENCIES:
   - AppLovinSDK
+  - YYModel
 
 SPEC REPOS:
   trunk:
     - AppLovinSDK
+    - YYModel
 
 SPEC CHECKSUMS:
   AppLovinSDK: a892bbeff744749a8121bd863aa1399f7eef6ef1
+  YYModel: 2a7fdd96aaa4b86a824e26d0c517de8928c04b30
 
-PODFILE CHECKSUM: af2f8950960fb431d3c2d3b4e94b08f0fbf8216f
+PODFILE CHECKSUM: 2e74abbe97cc0e076c5fe67db42290b8d893bac6
 
 COCOAPODS: 1.15.2
